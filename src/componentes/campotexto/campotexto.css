@@ -1,0 +1,22 @@
+*{
+    font-family: "montserrat";
+}
+
+label {
+    font-weight: 600;
+    margin-top: 15px;
+}
+ input{
+    padding: 30px 20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    outline-color: #6278F7;
+    font-weight: 600;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+}

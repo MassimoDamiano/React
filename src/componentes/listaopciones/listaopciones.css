@@ -1,0 +1,20 @@
+label{
+    display: block;
+    font-family: "montserrat", "sans serif";
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+select{
+    padding: 30px 20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    outline-color: #6278F7;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+option{
+    font-weight: 600;
+}
