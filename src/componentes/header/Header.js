@@ -1,4 +1,3 @@
-import "/Users/Usuario/Desktop/a-oracle/React/org1/src/componentes/header/Header.css"
 
 function Header(){
     return  <header className="header"> 
