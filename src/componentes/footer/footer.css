@@ -1,0 +1,23 @@
+*{
+    font-family: "montserrat", "sans-serif";
+}
+.footer{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.redes{
+    margin: 0px 60px;
+}
+
+.redes a{
+    margin-left: 20px;
+}
+
+p{
+    font-weight: 800;
+    color: black;
+    padding-right: 30px;
+}

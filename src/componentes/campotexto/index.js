@@ -8,12 +8,13 @@ import { useState } from "react"
     console.log(e.target.value)
     props.actualizarValor(e.target.value)
   }
-  
+  const { type = "text"} = props
+  console.log(type)
   return (
     <div className="container">
       <label htmlFor="name">{props.titulo}</label>
       <input 
-       type="text" name="name" id="name"
+       
        
        placeholder={placeholderModificado} 
        
@@ -22,6 +23,8 @@ import { useState } from "react"
        value={props.valor}
        
        onChange={manejarCambio}
+
+       type ={type}
        />
       
     </div>

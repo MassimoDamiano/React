@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300;1,600&family=Open+Sans&family=Prata&family=Raleway:ital,wght@0,100;0,400;1,600&display=swap');
 .formulario{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 80px 0px;
 }
 
 .formulario form{
-   width: 80%;
+   
     background-color: #F6F6F6;
 }
 
 .form__container{
-    padding:  10px 100px;
+    padding:  10px 80px;
     display: flex;
     flex-direction: column;
 }
